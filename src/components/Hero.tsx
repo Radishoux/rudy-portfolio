@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(251,191,36,0.06) 0%, transparent 70%)",
+            "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(217,70,239,0.08) 0%, rgba(139,92,246,0.05) 50%, transparent 70%)",
         }}
       />
 
@@ -35,7 +35,7 @@ export default function Hero() {
           className="text-6xl md:text-8xl font-bold text-zinc-100 mb-5 tracking-tight leading-none opacity-0 animate-fade-in-up animate-delay-100"
         >
           Rudy{" "}
-          <span className="text-amber-400">Quinternet</span>
+          <span className="text-fuchsia-400">Quinternet</span>
         </h1>
 
         {/* Title */}
@@ -54,7 +54,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up animate-delay-400">
           <a
             href="#contact"
-            className="inline-flex items-center justify-center bg-amber-400 hover:bg-amber-300 text-zinc-950 font-semibold px-8 py-3.5 rounded-full transition-colors duration-200 text-sm"
+            className="inline-flex items-center justify-center bg-fuchsia-500 hover:bg-fuchsia-400 text-white font-semibold px-8 py-3.5 rounded-full transition-colors duration-200 text-sm"
           >
             Contact me
           </a>

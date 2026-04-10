@@ -15,7 +15,7 @@ export default function Experience() {
               <div key={i} className="relative sm:pl-14">
                 {/* Timeline dot */}
                 <div className="hidden sm:flex absolute left-0 top-1 w-8 h-8 rounded-full bg-zinc-900 border-2 border-zinc-700 items-center justify-center">
-                  <div className="w-2 h-2 rounded-full bg-amber-400" />
+                  <div className="w-2 h-2 rounded-full bg-fuchsia-500" />
                 </div>
 
                 <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-colors duration-200">
@@ -26,7 +26,7 @@ export default function Experience() {
                       <h3 className="text-xl font-bold text-zinc-100 mt-1">
                         {exp.role}
                       </h3>
-                      <p className="text-amber-400 font-medium mt-0.5">
+                      <p className="text-fuchsia-400 font-medium mt-0.5">
                         {exp.company}
                         <span className="text-zinc-600 font-normal">
                           {" "}
@@ -36,7 +36,7 @@ export default function Experience() {
                     </div>
 
                     {exp.badge && (
-                      <span className="inline-flex items-center gap-1.5 text-xs bg-amber-400/10 text-amber-400 border border-amber-400/20 px-3 py-1.5 rounded-full shrink-0">
+                      <span className="inline-flex items-center gap-1.5 text-xs bg-fuchsia-500/10 text-fuchsia-400 border border-fuchsia-500/30 px-3 py-1.5 rounded-full shrink-0">
                         <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                         </svg>
@@ -75,7 +75,7 @@ function SectionHeader({ title }: { title: string }) {
   return (
     <div>
       <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-amber-400 rounded-full" />
+      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
     </div>
   );
 }

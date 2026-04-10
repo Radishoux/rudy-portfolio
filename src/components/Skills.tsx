@@ -13,7 +13,7 @@ export default function Skills() {
               className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-colors duration-200"
             >
               <h3 className="text-zinc-100 font-semibold mb-4 flex items-center gap-2">
-                <span className="w-1.5 h-4 bg-amber-400 rounded-full inline-block" />
+                <span className="w-1.5 h-4 bg-fuchsia-500 rounded-full inline-block" />
                 {group.category}
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -38,7 +38,7 @@ function SectionHeader({ title }: { title: string }) {
   return (
     <div>
       <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-amber-400 rounded-full" />
+      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
     </div>
   );
 }

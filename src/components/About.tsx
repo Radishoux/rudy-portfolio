@@ -17,7 +17,7 @@ export default function About() {
             </p>
             <p className="text-zinc-400 leading-relaxed">
               Holds a{" "}
-              <span className="text-amber-400 font-medium">
+              <span className="text-fuchsia-400 font-medium">
                 NATO Secret Clearance
               </span>
               , willing to relocate, and always learning — currently picking up
@@ -87,7 +87,7 @@ function SectionHeader({ title }: { title: string }) {
   return (
     <div>
       <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-amber-400 rounded-full" />
+      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
     </div>
   );
 }
@@ -112,7 +112,7 @@ function InfoRow({
         <p className="text-zinc-500 text-xs uppercase tracking-wider mb-0.5">
           {label}
         </p>
-        <p className={highlight ? "text-amber-400 font-medium" : "text-zinc-300"}>
+        <p className={highlight ? "text-fuchsia-400 font-medium" : "text-zinc-300"}>
           {value}
         </p>
       </div>

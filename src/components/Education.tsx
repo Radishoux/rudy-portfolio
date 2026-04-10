@@ -14,7 +14,7 @@ export default function Education() {
             >
               {/* Year badge */}
               <div className="shrink-0 text-center">
-                <span className="text-2xl font-bold text-amber-400">
+                <span className="text-2xl font-bold text-fuchsia-400">
                   {edu.year}
                 </span>
               </div>
@@ -44,7 +44,7 @@ function SectionHeader({ title }: { title: string }) {
   return (
     <div>
       <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-amber-400 rounded-full" />
+      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
     </div>
   );
 }

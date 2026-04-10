@@ -31,7 +31,7 @@ export default function Navbar() {
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a
           href="#home"
-          className="text-amber-400 font-bold text-xl tracking-tight hover:text-amber-300 transition-colors"
+          className="text-fuchsia-400 font-bold text-xl tracking-tight hover:text-fuchsia-300 transition-colors"
         >
           RQ
         </a>
@@ -49,7 +49,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="bg-amber-400 hover:bg-amber-300 text-zinc-950 text-sm font-semibold px-5 py-2 rounded-full transition-colors duration-200"
+            className="bg-fuchsia-500 hover:bg-fuchsia-400 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors duration-200"
           >
             Hire me
           </a>
@@ -92,7 +92,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="inline-flex justify-center bg-amber-400 hover:bg-amber-300 text-zinc-950 text-sm font-semibold px-5 py-2.5 rounded-full transition-colors mt-2"
+            className="inline-flex justify-center bg-fuchsia-500 hover:bg-fuchsia-400 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors mt-2"
             onClick={() => setOpen(false)}
           >
             Hire me

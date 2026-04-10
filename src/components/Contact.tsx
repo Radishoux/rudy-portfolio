@@ -48,7 +48,7 @@ export default function Contact() {
             <div className="flex flex-col gap-3 pt-2">
               <a
                 href={`mailto:${profile.email}`}
-                className="inline-flex items-center justify-center bg-amber-400 hover:bg-amber-300 text-zinc-950 font-semibold px-6 py-3 rounded-full transition-colors duration-200 text-sm"
+                className="inline-flex items-center justify-center bg-fuchsia-500 hover:bg-fuchsia-400 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 text-sm"
               >
                 Send an email
               </a>
@@ -83,7 +83,7 @@ function ContactItem({
 }) {
   const inner = (
     <div className="flex items-center gap-4 group">
-      <div className="w-11 h-11 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-400 group-hover:text-amber-400 group-hover:border-amber-400/30 transition-colors shrink-0">
+      <div className="w-11 h-11 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-400 group-hover:text-fuchsia-400 group-hover:border-fuchsia-500/30 transition-colors shrink-0">
         {icon}
       </div>
       <div>
@@ -106,7 +106,7 @@ function SectionHeader({ title }: { title: string }) {
   return (
     <div>
       <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-amber-400 rounded-full" />
+      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
     </div>
   );
 }

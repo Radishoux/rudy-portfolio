@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-1 text-zinc-700 text-xs">
           <span>Built with</span>
-          <span className="text-amber-400/60 mx-1">Next.js + Tailwind</span>
+          <span className="text-fuchsia-400/60 mx-1">Next.js + Tailwind</span>
           <span>&middot; Hosted on GitHub Pages</span>
         </div>
       </div>

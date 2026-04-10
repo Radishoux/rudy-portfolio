@@ -6,8 +6,9 @@ export const profile = {
   email: "rudy.quinternet@gmail.com",
   phone: "+33(0) 6 49 38 10 75",
   website: "rudyquinternet.com",
+  linkedin: "https://www.linkedin.com/in/rudy-quinternet/",
+  github: "https://github.com/Radishoux",
   willingToRelocate: true,
-  clearance: "NATO — Secret",
 
   languages: [
     { name: "French", level: "Native" },
@@ -56,13 +57,12 @@ export const profile = {
     },
     {
       role: "Software Developer — Computer Engineer",
-      company: "Thales (NATO)",
+      company: "Thales",
       period: "Jan 2023 — Nov 2023",
       location: "Paris, FR",
       tech: ["Angular", "Java", "C#", "TypeScript", "Jenkins", "Jest", "Cypress"],
       description:
-        "Initially test engineer, testing apps with Cypress, Jenkins, Jest, then developer on NATO projects after clearance. Hexagonal architecture, large senior team, management.",
-      badge: "NATO Secret Clearance",
+        "Initially test engineer, testing apps with Cypress, Jenkins, Jest, then developer on defense projects after clearance. Hexagonal architecture, large senior team, management.",
     },
     {
       role: "Software Developer",

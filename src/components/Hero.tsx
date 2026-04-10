@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
@@ -24,30 +26,54 @@ export default function Hero() {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-32 text-center">
+        {/* Photo */}
+        <div className="flex justify-center mb-8 opacity-0 animate-fade-in-up">
+          <div
+            className="rounded-full p-1"
+            style={{
+              background:
+                "linear-gradient(135deg, rgba(217,70,239,0.6) 0%, rgba(139,92,246,0.6) 100%)",
+            }}
+          >
+            <div className="rounded-full bg-zinc-950 p-0.5">
+              <Image
+                src="/rudy.jpg"
+                alt="Rudy Quinternet"
+                width={120}
+                height={120}
+                className="rounded-full object-cover"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+
         {/* Status badge */}
-        <div className="inline-flex items-center gap-2 bg-zinc-900/80 border border-zinc-800 rounded-full px-4 py-1.5 mb-10 opacity-0 animate-fade-in-up">
-          <span className="w-2 h-2 rounded-full bg-green-500 inline-block" style={{ boxShadow: "0 0 6px #22c55e" }} />
-          <span className="text-zinc-400 text-sm">Available for new opportunities</span>
+        <div className="inline-flex items-center gap-2 bg-zinc-900/80 border border-zinc-800 rounded-full px-4 py-1.5 mb-10 opacity-0 animate-fade-in-up animate-delay-100">
+          <span
+            className="w-2 h-2 rounded-full bg-green-500 inline-block"
+            style={{ boxShadow: "0 0 6px #22c55e" }}
+          />
+          <span className="text-zinc-400 text-sm">
+            Available for new opportunities
+          </span>
         </div>
 
         {/* Name */}
-        <h1
-          className="text-6xl md:text-8xl font-bold text-zinc-100 mb-5 tracking-tight leading-none opacity-0 animate-fade-in-up animate-delay-100"
-        >
-          Rudy{" "}
-          <span className="text-fuchsia-400">Quinternet</span>
+        <h1 className="text-6xl md:text-8xl font-bold text-zinc-100 mb-5 tracking-tight leading-none opacity-0 animate-fade-in-up animate-delay-200">
+          Rudy <span className="text-fuchsia-400">Quinternet</span>
         </h1>
 
         {/* Title */}
-        <p className="text-2xl md:text-3xl text-zinc-400 mb-5 font-light opacity-0 animate-fade-in-up animate-delay-200">
+        <p className="text-2xl md:text-3xl text-zinc-400 mb-5 font-light opacity-0 animate-fade-in-up animate-delay-300">
           Software Engineer
         </p>
 
         {/* Tagline */}
-        <p className="text-zinc-500 text-base md:text-lg mb-12 max-w-md mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-300">
+        <p className="text-zinc-500 text-base md:text-lg mb-12 max-w-md mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-400">
           Six years of experience, three in permanent position.
           <br />
-          Paris, France &middot; NATO Secret Clearance
+          Paris, France &middot; Full-stack &middot; Open to relocation
         </p>
 
         {/* CTAs */}

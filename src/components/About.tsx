@@ -16,26 +16,16 @@ export default function About() {
               systems.
             </p>
             <p className="text-zinc-400 leading-relaxed">
-              Holds a{" "}
-              <span className="text-fuchsia-400 font-medium">
-                NATO Secret Clearance
-              </span>
-              , willing to relocate, and always learning — currently picking up
-              Dutch.
+              Based in Paris, open to relocation, and always learning —
+              currently picking up Dutch.
             </p>
 
-            {/* Info rows */}
-            <div className="space-y-4 pt-2">
+            {/* Info row */}
+            <div className="pt-2">
               <InfoRow
                 icon={<LocationIcon />}
                 label="Location"
                 value={`${profile.location} · Open to relocation`}
-              />
-              <InfoRow
-                icon={<LockIcon />}
-                label="Clearance"
-                value={profile.clearance}
-                highlight
               />
             </div>
           </div>
@@ -96,12 +86,10 @@ function InfoRow({
   icon,
   label,
   value,
-  highlight = false,
 }: {
   icon: React.ReactNode;
   label: string;
   value: string;
-  highlight?: boolean;
 }) {
   return (
     <div className="flex items-start gap-3">
@@ -112,9 +100,7 @@ function InfoRow({
         <p className="text-zinc-500 text-xs uppercase tracking-wider mb-0.5">
           {label}
         </p>
-        <p className={highlight ? "text-fuchsia-400 font-medium" : "text-zinc-300"}>
-          {value}
-        </p>
+        <p className="text-zinc-300">{value}</p>
       </div>
     </div>
   );
@@ -122,17 +108,23 @@ function InfoRow({
 
 function LocationIcon() {
   return (
-    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-    </svg>
-  );
-}
-
-function LockIcon() {
-  return (
-    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+      />
     </svg>
   );
 }

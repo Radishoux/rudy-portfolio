@@ -16,7 +16,7 @@ export default function Contact() {
               Feel free to reach out.
             </p>
 
-            <div className="space-y-7">
+            <div className="space-y-10">
               <ContactItem
                 icon={<EmailIcon />}
                 label="Email"

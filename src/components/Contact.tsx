@@ -133,9 +133,12 @@ function ContactItem({
 
 function SectionHeader({ title }: { title: string }) {
   return (
-    <div>
-      <h2 className="text-3xl font-bold text-zinc-100 mb-3">{title}</h2>
-      <div className="h-1 w-12 bg-fuchsia-500 rounded-full" />
+    <div className="flex items-center gap-5">
+      <span className="text-6xl font-black text-zinc-800 select-none leading-none tabular-nums">05</span>
+      <div>
+        <h2 className="text-3xl font-bold text-zinc-100 mb-2">{title}</h2>
+        <div className="h-0.5 w-10 bg-fuchsia-500 rounded-full" />
+      </div>
     </div>
   );
 }

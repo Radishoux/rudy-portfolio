@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { asset } from "@/lib/path";
 
 export default function Hero() {
@@ -36,13 +35,13 @@ export default function Hero() {
                 "linear-gradient(135deg, rgba(217,70,239,0.7) 0%, rgba(139,92,246,0.7) 100%)",
             }}
           >
-            <Image
-              src="/rudy-pp.jpg"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={asset("/rudy-pp.jpg")}
               alt="Rudy Quinternet"
               width={128}
               height={128}
-              className="rounded-full object-cover block"
-              priority
+              className="rounded-full object-cover block w-32 h-32"
             />
           </div>
         </div>
@@ -72,7 +71,7 @@ export default function Hero() {
         <p className="text-zinc-500 text-base md:text-lg mb-12 max-w-md mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-400">
           Six years of experience, three in permanent position.
           <br />
-          Paris, France &middot; Full-stack &middot; Open to relocation
+          Netherlands &middot; Full-stack &middot; Open to relocation
         </p>
 
         {/* CTAs */}

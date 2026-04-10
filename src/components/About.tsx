@@ -16,8 +16,8 @@ export default function About() {
               systems.
             </p>
             <p className="text-zinc-400 leading-relaxed">
-              Based in Paris, open to relocation, and always learning —
-              currently picking up Dutch.
+              Based in the Netherlands (Utrecht / Tiel area), open to relocation,
+              and always learning — currently picking up Dutch.
             </p>
 
             {/* Info row */}

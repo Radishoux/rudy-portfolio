@@ -16,7 +16,7 @@ export default function Contact() {
               Feel free to reach out.
             </p>
 
-            <div className="space-y-5">
+            <div className="space-y-7">
               <ContactItem
                 icon={<EmailIcon />}
                 label="Email"
@@ -105,8 +105,8 @@ function ContactItem({
   href?: string;
 }) {
   const inner = (
-    <div className="flex items-center gap-4 group">
-      <div className="w-11 h-11 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-400 group-hover:text-fuchsia-400 group-hover:border-fuchsia-500/30 transition-colors shrink-0">
+    <div className="flex items-center gap-5 group">
+      <div className="w-12 h-12 rounded-xl bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-400 group-hover:text-fuchsia-400 group-hover:border-fuchsia-500/30 transition-colors shrink-0">
         {icon}
       </div>
       <div>

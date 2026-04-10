@@ -10,7 +10,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Rudy Quinternet — Software Engineer",
   description:
-    "Portfolio of Rudy Quinternet, Senior Software Engineer based in Paris. 6 years of experience in React, Node.js, Angular, Flutter, AWS and more.",
+    "Portfolio of Rudy Quinternet, Senior Software Engineer based in the Netherlands. 6 years of experience in React, Node.js, Angular, Flutter, AWS and more.",
   keywords: [
     "Rudy Quinternet",
     "Software Engineer",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Node.js",
     "Next.js",
     "TypeScript",
-    "Paris",
+    "Netherlands",
     "Full Stack",
   ],
   authors: [{ name: "Rudy Quinternet" }],

@@ -2,7 +2,7 @@ export const profile = {
   name: "Rudy Quinternet",
   title: "Software Engineer",
   tagline: "Six years of experience, three in permanent position.",
-  location: "Paris, France — 75015",
+  location: "Netherlands — Utrecht / Tiel area",
   email: "rudy.quinternet@gmail.com",
   phone: "+33(0) 6 49 38 10 75",
   website: "rudyquinternet.com",
